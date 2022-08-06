@@ -9,22 +9,24 @@
     background-color: darkseagreen;
     margin-top: 10px;
     padding: 20px 20px;
-    text-align:left;
+    text-align: left;
     font-family: cursive;
     font-size: xx-large;
     text-align: center;
 }
 
-.header a{
-    float:right;
+.header a {
+    float: right;
     background-color: darkseagreen;
-    
+
 }
-.navlinks{
+
+.navlinks {
     background-color: darkseagreen;
     text-align: center;
 }
-.navlinks a{
+
+.navlinks a {
     background-color: darkseagreen;
     display: inline;
     font-family: cursive;
@@ -32,10 +34,10 @@
     padding: 0px 20px 0px 20px;
     color: brown;
     margin: 10px 10px;
-    
+
 }
 
-.navitems{
+.navitems {
     background-color: rgb(13, 96, 96);
     text-align: right;
     padding: 10px 20px 10px 20px;
@@ -48,63 +50,21 @@
     color: black;
     padding: 0px 20px;
 }
-.dogscontainner{
-    margin-top: 20px;
-    width: 80%;
-}
 
+.doggrid {
 
-.Auggie {
-
-    width: 70%;
-    margin: 0px 20px 20px 20px;
-    border: 10px solid black;
-    border-width: 2px;
-    display: inline-block;
-}
-.Auggie p{
-    text-align: top;
-    font: 20px;
-}
-
-.BarbadodaTerceira {
-    width: 70%;
-    margin: 0px 20px 20px 20px;
+    width: 90%;
+    margin: 0px 10px 20px 20px;
     border: 10px solid black;
     border-width: 2px;
     display: inline-block;
 }
 
-.Beabull {
+.dogscontainner {
+    margin-top: 10px;
     width: 70%;
-    margin: 0px 20px 20px 20px;
-    border: 10px solid black;
-    border-width: 2px;
-    display: inline-block;
 }
 
-.BergerPicard {
-    width: 70%;
-    margin: 0px 20px 20px 20px;
-    border: 10px solid black;
-    border-width: 2px;
-    display: inline-block;
-}
-
-.BichonFrise {
-    width: 70%;
-    margin: 0px 20px 20px 20px;
-    border: 10px solid black;
-    border-width: 2px;
-    display: inline-block;
-}
-.Bolognese {
-    width: 70%;
-    margin: 0px 20px 20px 20px;
-    border: 10px solid black;
-    border-width: 2px;
-    display: inline-block;
-}
 
 
 .dogscontainner h3 {
@@ -131,34 +91,56 @@
     flex-wrap: wrap;
     margin: 40px 40px;
     font-size: larger;
-    
+
 
 }
-.float-right 
-{
+
+.float-right {
     float: right;
     margin: 20px 20px;
 }
-.float-left{
+
+.float-left {
     float: left;
     margin: 20px 20px;
 }
-aside{
- display: block;
+
+aside {
+    display: block;
 }
-.form{
-    width: 20%;
+
+.form {
+    border: 2px solid black;
     height: 100%;
     font-size: large;
-    padding: 10px 10px 10px 10px;
-    clear: both;
+    margin-left: 100px;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px;
+
 }
-.details{
+
+.details {
     align-content: center;
 }
-.wrapper{
+
+.wrapper {
     display: flex;
     flex-direction: row;
     width: 100%;
 
+
+}
+
+.footer footer {
+    background-color: darkseagreen;
+    margin: 1px 1px;
+    padding: 10px 10px;
+
+}
+
+footer {
+    text-align: center;
+    font-size: x-large;
+    color: darkgreen;
 }
